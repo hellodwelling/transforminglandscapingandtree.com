@@ -458,8 +458,19 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscaping&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Hardscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Hardscaping&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Tree Services&#x27;, &#x27;href&#x27;: &#x27;gallery-Tree Services&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Mowing&#x27;, &#x27;href&#x27;: &#x27;gallery-Mowing&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Mowing&#x27;, &#x27;href&#x27;: &#x27;gallery-Mowing&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscaping&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Hardscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Hardscaping&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Tree Services&#x27;, &#x27;href&#x27;: &#x27;gallery-Tree Services&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
                                                   
+                                                    <a
+                                                        href=" gallery-Mowing "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Mowing</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
                                                     <a
                                                         href=" gallery-Landscaping "
                                                         role="menuitem"
@@ -489,17 +500,6 @@
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">Tree Services</p>
-                                                    </a>
-                                                <!-- </each> -->
-                                               <!--  -->
-                                                 
-                                                    <a
-                                                        href=" gallery-Mowing "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                        <p class="mt-1 text-sm text-gray-500">Mowing</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -796,6 +796,12 @@
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             <!-- Render each sublink -->
                                             
+                                                <a href=" gallery-Mowing " role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Mowing</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
                                                 <a href=" gallery-Landscaping " role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Landscaping</p>
@@ -811,12 +817,6 @@
                                                 <a href=" gallery-Tree Services " role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Tree Services</p>
-                                                </a>
-                                            <!-- </each> -->
-                                            
-                                                <a href=" gallery-Mowing " role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                    <p class="mt-1 text-sm text-gray-500">Mowing</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -875,6 +875,8 @@
         
             
                 
+                    
+                        
                     
                         
                             <!-- Our Best Work Component -->
@@ -994,8 +996,6 @@
     </div>
 </section>
 
-                        
-                    
                         
                     
                         
@@ -1232,6 +1232,14 @@
                     <div>
                         <h3 class="text-sm font-semibold tracking-wider text-gray-400 uppercase">Locations</h3>
                         <ul role="list" class="mt-4 -mx-1 space-y-4">
+                            
+                            <li>
+                                <a
+                                    href="#"
+                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
+                                    > Austin, TX</a
+                                >
+                            </li>
                             
                         </ul>
                     </div>
@@ -1483,72 +1491,72 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75335"
-                                            name="75335"
+                                            id="contact-service-75405"
+                                            name="75405"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75335" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
+                                        <label for="contact-label-service-75405" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75336"
-                                            name="75336"
+                                            id="contact-service-75406"
+                                            name="75406"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75336" class="ml-3 text-sm font-medium text-gray-700">Garden Maintenance</label>
+                                        <label for="contact-label-service-75406" class="ml-3 text-sm font-medium text-gray-700">Garden Maintenance</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75337"
-                                            name="75337"
+                                            id="contact-service-75407"
+                                            name="75407"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75337" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
+                                        <label for="contact-label-service-75407" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75338"
-                                            name="75338"
+                                            id="contact-service-75408"
+                                            name="75408"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75338" class="ml-3 text-sm font-medium text-gray-700">Tree Trimming & Removal</label>
+                                        <label for="contact-label-service-75408" class="ml-3 text-sm font-medium text-gray-700">Tree Trimming & Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75339"
-                                            name="75339"
+                                            id="contact-service-75409"
+                                            name="75409"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75339" class="ml-3 text-sm font-medium text-gray-700">Shrub Installation & Removal</label>
+                                        <label for="contact-label-service-75409" class="ml-3 text-sm font-medium text-gray-700">Shrub Installation & Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75340"
-                                            name="75340"
+                                            id="contact-service-75410"
+                                            name="75410"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75340" class="ml-3 text-sm font-medium text-gray-700">Stump Removal</label>
+                                        <label for="contact-label-service-75410" class="ml-3 text-sm font-medium text-gray-700">Stump Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75341"
-                                            name="75341"
+                                            id="contact-service-75411"
+                                            name="75411"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75341" class="ml-3 text-sm font-medium text-gray-700">Hardscaping</label>
+                                        <label for="contact-label-service-75411" class="ml-3 text-sm font-medium text-gray-700">Hardscaping</label>
                                     </div>
                                 
                             </div>
