@@ -458,8 +458,19 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscaping&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Hardscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Hardscaping&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Tree Services&#x27;, &#x27;href&#x27;: &#x27;gallery-Tree Services&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Mowing&#x27;, &#x27;href&#x27;: &#x27;gallery-Mowing&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Mowing&#x27;, &#x27;href&#x27;: &#x27;gallery-Mowing&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscaping&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Hardscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Hardscaping&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Tree Services&#x27;, &#x27;href&#x27;: &#x27;gallery-Tree Services&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
                                                   
+                                                    <a
+                                                        href=" gallery-Mowing "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Mowing</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
                                                     <a
                                                         href=" gallery-Landscaping "
                                                         role="menuitem"
@@ -489,17 +500,6 @@
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">Tree Services</p>
-                                                    </a>
-                                                <!-- </each> -->
-                                               <!--  -->
-                                                 
-                                                    <a
-                                                        href=" gallery-Mowing "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                        <p class="mt-1 text-sm text-gray-500">Mowing</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -796,6 +796,12 @@
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             <!-- Render each sublink -->
                                             
+                                                <a href=" gallery-Mowing " role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Mowing</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
                                                 <a href=" gallery-Landscaping " role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Landscaping</p>
@@ -811,12 +817,6 @@
                                                 <a href=" gallery-Tree Services " role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Tree Services</p>
-                                                </a>
-                                            <!-- </each> -->
-                                            
-                                                <a href=" gallery-Mowing " role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                    <p class="mt-1 text-sm text-gray-500">Mowing</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -1007,76 +1007,6 @@
                         <span id="carousel-content-label" class="sr-only" hidden>Carousel</span>
                         <ul id="services-image-slider" x-ref="slider" tabindex="0" role="listbox" aria-labelledby="carousel-content-label" class="hide-scrollbars">
                             
-                                <li class="translate-z-0" role="option">
-                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
-                                        <div class="h-[229px] sm:h-[481px] overflow-hidden rounded-lg">
-                                            <!-- <img class="object-cover" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/1cb595ca-82c4-40da-bb5f-837215c2c901.jpeg" alt="" /> -->
-                                            <img class="object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/1cb595ca-82c4-40da-bb5f-837215c2c901.jpeg" alt="" />
-                                        </div>
-                                        <!-- <p class="hidden mt-3 text-gray-500 sm:block"> -->
-                                            <!-- TODO: Insert {&#x27;photo&#x27;: &#x27;https://landing-page-app-hero-images.s3.amazonaws.com/media/1cb595ca-82c4-40da-bb5f-837215c2c901.jpeg&#x27;, &#x27;order&#x27;: 0, &#x27;fileName&#x27;: &#x27;1cb595ca-82c4-40da-bb5f-837215c2c901.jpeg&#x27;} here instead of fixed text -->
-                                            <!--  -->
-                                            <!-- Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. -->
-                                        <!-- </p> -->
-                                    </div>
-                                </li>
-                            
-                                <li class="translate-z-0" role="option">
-                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
-                                        <div class="h-[229px] sm:h-[481px] overflow-hidden rounded-lg">
-                                            <!-- <img class="object-cover" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/a1fed6b1-c1d4-41aa-8763-966846512887.jpeg" alt="" /> -->
-                                            <img class="object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/a1fed6b1-c1d4-41aa-8763-966846512887.jpeg" alt="" />
-                                        </div>
-                                        <!-- <p class="hidden mt-3 text-gray-500 sm:block"> -->
-                                            <!-- TODO: Insert {&#x27;photo&#x27;: &#x27;https://landing-page-app-hero-images.s3.amazonaws.com/media/a1fed6b1-c1d4-41aa-8763-966846512887.jpeg&#x27;, &#x27;order&#x27;: 1, &#x27;fileName&#x27;: &#x27;a1fed6b1-c1d4-41aa-8763-966846512887.jpeg&#x27;} here instead of fixed text -->
-                                            <!--  -->
-                                            <!-- Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. -->
-                                        <!-- </p> -->
-                                    </div>
-                                </li>
-                            
-                                <li class="translate-z-0" role="option">
-                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
-                                        <div class="h-[229px] sm:h-[481px] overflow-hidden rounded-lg">
-                                            <!-- <img class="object-cover" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ba8f7b78-d4da-43a3-bd0d-21b184ab9e70.jpeg" alt="" /> -->
-                                            <img class="object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/ba8f7b78-d4da-43a3-bd0d-21b184ab9e70.jpeg" alt="" />
-                                        </div>
-                                        <!-- <p class="hidden mt-3 text-gray-500 sm:block"> -->
-                                            <!-- TODO: Insert {&#x27;photo&#x27;: &#x27;https://landing-page-app-hero-images.s3.amazonaws.com/media/ba8f7b78-d4da-43a3-bd0d-21b184ab9e70.jpeg&#x27;, &#x27;order&#x27;: 2, &#x27;fileName&#x27;: &#x27;ba8f7b78-d4da-43a3-bd0d-21b184ab9e70.jpeg&#x27;} here instead of fixed text -->
-                                            <!--  -->
-                                            <!-- Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. -->
-                                        <!-- </p> -->
-                                    </div>
-                                </li>
-                            
-                                <li class="translate-z-0" role="option">
-                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
-                                        <div class="h-[229px] sm:h-[481px] overflow-hidden rounded-lg">
-                                            <!-- <img class="object-cover" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/7be92e87-1706-4944-94f4-4946ee9682f3.jpeg" alt="" /> -->
-                                            <img class="object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/7be92e87-1706-4944-94f4-4946ee9682f3.jpeg" alt="" />
-                                        </div>
-                                        <!-- <p class="hidden mt-3 text-gray-500 sm:block"> -->
-                                            <!-- TODO: Insert {&#x27;photo&#x27;: &#x27;https://landing-page-app-hero-images.s3.amazonaws.com/media/7be92e87-1706-4944-94f4-4946ee9682f3.jpeg&#x27;, &#x27;order&#x27;: 3, &#x27;fileName&#x27;: &#x27;7be92e87-1706-4944-94f4-4946ee9682f3.jpeg&#x27;} here instead of fixed text -->
-                                            <!--  -->
-                                            <!-- Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. -->
-                                        <!-- </p> -->
-                                    </div>
-                                </li>
-                            
-                                <li class="translate-z-0" role="option">
-                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
-                                        <div class="h-[229px] sm:h-[481px] overflow-hidden rounded-lg">
-                                            <!-- <img class="object-cover" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/283baa4e-fc0a-4b8d-9830-f55b9c2acf5c.jpeg" alt="" /> -->
-                                            <img class="object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/283baa4e-fc0a-4b8d-9830-f55b9c2acf5c.jpeg" alt="" />
-                                        </div>
-                                        <!-- <p class="hidden mt-3 text-gray-500 sm:block"> -->
-                                            <!-- TODO: Insert {&#x27;photo&#x27;: &#x27;https://landing-page-app-hero-images.s3.amazonaws.com/media/283baa4e-fc0a-4b8d-9830-f55b9c2acf5c.jpeg&#x27;, &#x27;order&#x27;: 4, &#x27;fileName&#x27;: &#x27;283baa4e-fc0a-4b8d-9830-f55b9c2acf5c.jpeg&#x27;} here instead of fixed text -->
-                                            <!--  -->
-                                            <!-- Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. Cabin in the woods with recently landscaped. -->
-                                        <!-- </p> -->
-                                    </div>
-                                </li>
-                            
                         </ul>
                     </div>
                 </div>
@@ -1135,8 +1065,6 @@
             <!-- Place the children of the component here -->
             <content>
                 
-                    <p>The Shrub Installation &amp; Removal service can help you achieve the look and feel you desire for your home. Our experienced professionals can install or remove shrubs quickly and efficiently, so you can enjoy the benefits of a well-manicured landscape without any of the hassle. Plus, our competitive rates make it easy to get the professional help you need without breaking the bank. So if you&#x27;re looking to improve the appearance of your home, call Landscaping &amp; Tree Service today and let us help you achieve your goals.</p>
-                
                     <p></p>
                 
             </content>
@@ -1152,7 +1080,7 @@
         <div class="flex flex-col items-center space-y-5">
             <!-- Heading -->
             <h2>
-                <span class="block text-base font-semibold tracking-wide text-center uppercase text-secondary"> 2+ 5-star Reviews</span>
+                <span class="block text-base font-semibold tracking-wide text-center uppercase text-secondary"> 0+ 5-star Reviews</span>
                 <!-- <span class="block text-base font-semibold tracking-wide text-center uppercase text-secondary">10+ 5-star Reviews</span> -->
                 <span class="block mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-primary sm:text-4xl">Testimonials &amp; Reviews</span>
             </h2>
@@ -1252,174 +1180,6 @@
                         <span id="carousel-content-label" class="sr-only" hidden>Carousel</span>
 
                         <ul x-ref="slider" tabindex="0" role="listbox" aria-labelledby="carousel-content-label" class="siema hide-scrollbars">
-                            
-                            
-                                <li class="translate-z-0" role="option">
-                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
-                                        <!-- Star Rating -->
-                                        <div class="flex justify-center">
-                                            <div aria-hidden="true" class="space-x-1.5 flex">
-                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- </each> -->
-                                            </div>
-                                            <!-- TODO: Add the current amount of stars here -->
-                                            <span class="sr-only">5 out of 5 stars</span>
-
-                                        </div>
-                                        <blockquote class="mt-10">
-                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
-                                                <p>Awesome service and amazing quality!</p>
-                                            </div>
-                                            <footer class="mt-8">
-                                                <div class="flex flex-col items-center justify-center md:flex-row">
-                                                    <div class="text-base font-medium text-gray-900">Jim Smith </div>
-                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
-                                                        <path d="M11 0h3L9 20H6l5-20z" />
-                                                    </svg>
-                                                    <div class="flex items-center">
-                                                        <div class="text-base font-medium text-gray-500">Mulch Installation</div>
-                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                                                            <path d="M11 0h3L9 20H6l5-20z" />
-                                                        </svg>
-                                                        <div class="text-base font-medium text-gray-500">Bowling Green, KY</div>
-                                                    </div>
-                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
-                                                    <div class="mt-3 md:ml-4 md:mt-0">
-                                                    <span class="sr-only">None</span>
-                                                     
-                                                    </div>
-                                                </div>
-                                            </footer>
-                                        </blockquote>
-                                    </div>
-                                </li>
-                            
-                            <!-- </each> -->
-                            
-                            
-                                <li class="translate-z-0" role="option">
-                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
-                                        <!-- Star Rating -->
-                                        <div class="flex justify-center">
-                                            <div aria-hidden="true" class="space-x-1.5 flex">
-                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- </each> -->
-                                            </div>
-                                            <!-- TODO: Add the current amount of stars here -->
-                                            <span class="sr-only">5 out of 5 stars</span>
-
-                                        </div>
-                                        <blockquote class="mt-10">
-                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
-                                                <p>Fantastic service! Highly professional team that cares. </p>
-                                            </div>
-                                            <footer class="mt-8">
-                                                <div class="flex flex-col items-center justify-center md:flex-row">
-                                                    <div class="text-base font-medium text-gray-900">Nick O </div>
-                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
-                                                        <path d="M11 0h3L9 20H6l5-20z" />
-                                                    </svg>
-                                                    <div class="flex items-center">
-                                                        <div class="text-base font-medium text-gray-500">Mowing</div>
-                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                                                            <path d="M11 0h3L9 20H6l5-20z" />
-                                                        </svg>
-                                                        <div class="text-base font-medium text-gray-500">Bowling Green, KY</div>
-                                                    </div>
-                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
-                                                    <div class="mt-3 md:ml-4 md:mt-0">
-                                                    <span class="sr-only">None</span>
-                                                     
-                                                    </div>
-                                                </div>
-                                            </footer>
-                                        </blockquote>
-                                    </div>
-                                </li>
-                            
-                            <!-- </each> -->
                             
                         </ul>
                     </div>
@@ -1556,8 +1316,8 @@
                     async
                   ></script> 
               
-                <span class="sr-only" id="city"></span>
-                <span class="sr-only" id="state"></span>
+                <span class="sr-only" id="city"> Austin</span>
+                <span class="sr-only" id="state"> Austin</span>
                   
                 </div>
             </div>
@@ -1801,6 +1561,14 @@
                     <div>
                         <h3 class="text-sm font-semibold tracking-wider text-gray-400 uppercase">Locations</h3>
                         <ul role="list" class="mt-4 -mx-1 space-y-4">
+                            
+                            <li>
+                                <a
+                                    href="#"
+                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
+                                    > Austin, TX</a
+                                >
+                            </li>
                             
                         </ul>
                     </div>
@@ -2052,72 +1820,72 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75335"
-                                            name="75335"
+                                            id="contact-service-75405"
+                                            name="75405"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75335" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
+                                        <label for="contact-label-service-75405" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75336"
-                                            name="75336"
+                                            id="contact-service-75406"
+                                            name="75406"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75336" class="ml-3 text-sm font-medium text-gray-700">Garden Maintenance</label>
+                                        <label for="contact-label-service-75406" class="ml-3 text-sm font-medium text-gray-700">Garden Maintenance</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75337"
-                                            name="75337"
+                                            id="contact-service-75407"
+                                            name="75407"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75337" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
+                                        <label for="contact-label-service-75407" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Up</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75338"
-                                            name="75338"
+                                            id="contact-service-75408"
+                                            name="75408"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75338" class="ml-3 text-sm font-medium text-gray-700">Tree Trimming & Removal</label>
+                                        <label for="contact-label-service-75408" class="ml-3 text-sm font-medium text-gray-700">Tree Trimming & Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75339"
-                                            name="75339"
+                                            id="contact-service-75409"
+                                            name="75409"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75339" class="ml-3 text-sm font-medium text-gray-700">Shrub Installation & Removal</label>
+                                        <label for="contact-label-service-75409" class="ml-3 text-sm font-medium text-gray-700">Shrub Installation & Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75340"
-                                            name="75340"
+                                            id="contact-service-75410"
+                                            name="75410"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75340" class="ml-3 text-sm font-medium text-gray-700">Stump Removal</label>
+                                        <label for="contact-label-service-75410" class="ml-3 text-sm font-medium text-gray-700">Stump Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-75341"
-                                            name="75341"
+                                            id="contact-service-75411"
+                                            name="75411"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-75341" class="ml-3 text-sm font-medium text-gray-700">Hardscaping</label>
+                                        <label for="contact-label-service-75411" class="ml-3 text-sm font-medium text-gray-700">Hardscaping</label>
                                     </div>
                                 
                             </div>
